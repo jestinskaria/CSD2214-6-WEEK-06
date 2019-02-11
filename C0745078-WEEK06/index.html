@@ -10,8 +10,16 @@
 
         var input1 = prompt("how high should I count up to ?");
         var sum = 0;
-        for (var i = 0; i <= input1; i++) {
+        var j = 0;
+
+       /*for (var i = 0; i <=input1 ; i++) {
             sum = sum + i;
+     }
+       */
+
+        while (j <= input1) {
+            sum = sum + j;
+            j++;
         }
         document.write(sum);
     </script>
